@@ -1,0 +1,68 @@
+<! DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> Projects | Resume </title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+<div id="page-wrapper">
+        <div id="container">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../edu/education.html">Education</a></li>
+                    <li><a href="../acc/accomplishments.html">Accomplishments</a></li>
+                    <li><a href="../gol/goals.html">Goals</a></li>
+                    <li><a href="../skl/skills.html">Skills</a></li>
+                    <li><a href="../exp/experiences.html">Experiences</a></li>
+                    <li><a id="current" href="../proj/projects.html">Projects</a></li>
+                </ul>
+            </nav>
+
+            <div id="content">
+                <header>
+                    <h1>Projects</h1>
+                </header>
+
+                <main>
+                    <h3>My Personal Website Project</h3>
+                    <div id="img-wrapper">
+                        <div id="left-column">
+                            <img src="../src/CoffeePackagingPreview.jpg" alt="Packaging Design Preview">
+                        </div>
+
+                        <div id="right-column">
+                            <img src="../src/Untitled%2032.jpg" alt="Packaging Prototypes #1">
+                            <img src="../src/Untitled%2033.jpg" alt="Packaging Prototypes #2">
+                        </div>
+                    </div>
+                    <p id="after-image-text">I am planning to build my own website using what I've learned in this class to sell my coffee. </p>
+
+
+                    <h3 id="calc">My Calculator Project</h3>
+                        <div id = "calc-wrapper">
+                            <label for="one">Give me a number: </label><input id="one">
+
+                            <div id = "calc-buttons">
+                                <button onclick="doAdd()">+</button>
+                                <button onclick="doSub()">-</button>
+                                <button onclick="doMul()">*</button>
+                                <button onclick="doDiv()">/</button>
+                                <button onclick="doPow()">**</button>
+                            </div>
+                            <label for="two">Give me a second number: </label><input id="two">
+                            <button onclick="doClear()">Clear</button>
+                            <h4 id="output-positive"></h4>
+                            <h4 id="output-negative"></h4>
+                        </div>
+                </main>
+                <footer>
+                    <p>&#169; All rights reserved by <strong> Steven Li </strong><a href="../hello-there.html">Credits</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calc.js"></script>
+</html>
